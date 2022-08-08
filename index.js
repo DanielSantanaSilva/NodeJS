@@ -1,6 +1,6 @@
-const chalk = require("chalk");
+import chalk from "chalk";
 
-console.log(clalk.blue("Vamos Começar,", "Hello World"));
+console.log(chalk.blue("Vamos Começar,", "Hello World"));
 
 const paragrafo = "Texto retornado por uma função";
 
