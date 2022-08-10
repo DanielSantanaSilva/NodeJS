@@ -32,3 +32,5 @@ async function pegaArquivo(caminhoDoArquivo) {
     console.log(chalk.yellow("operação concluída"));
   }
 }
+
+//Dica: Tratamento de erros e todas as formas possíveis de se fazer isso é um tópico recorrente em JavaScript, havendo vários prós e contras na utilização de cada método. Neste curso vamos optar pelo try/catch, mas se você se deparar com outras formas durante seus estudos, lembre-se de pesquisar os casos de uso e que sempre que há mais de uma forma de resolver um problema.
