@@ -1,11 +1,11 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node cli.js ./arquivos/texto1.md"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/DanielSantanaSilva/NodeJS#readme",
   "dependencies": {
-    "chalk": "^5.0.1"
+    "chalk": "^4.1.2"
   }
 }
