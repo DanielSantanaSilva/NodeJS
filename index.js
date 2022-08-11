@@ -78,3 +78,9 @@ Então o Node ele virou sinônimo de JavaScript no back-end, mas ele é o conjun
 //Que scripts são instruções que usamos para automatizar tarefas e como escrever nossos próprios scripts, incluí-los no arquivo de configuração package.json e utilizá-los para executar comandos no terminal.
 
 //Foi utilizado a lib node-fetch para acessar URLs e devolver informações como código de status HTTP; O método Promise.all para acessar de forma assíncrona um array de URLs e receber o resultado; E combinamos o uso do node-fetch e de promessas com async/await para garantir que o código seja executado de forma assíncrona, retornando os resultados.
+
+//Que testes unitários são usados para testar partes pequenas do código em separado e que utilizamos os métodos da lib Jest para executá-los;
+
+//Como fazer a leitura do resultados dos testes e qual é o significado de cada parte da sintaxe do Jest, como os métodos describe(), it() e toEqual();
+
+//Como pensamos nos testes de forma a garantir que um erro no uso do programa realmente gere uma resposta e que é importante que isso ocorra para garantir que possíveis erros não passem despercebidos pelo usuário.
