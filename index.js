@@ -62,5 +62,19 @@ Então o Node ele virou sinônimo de JavaScript no back-end, mas ele é o conjun
 
 //Uma delas é um arquivo de configuração que chama “package.json”, e criamos ele da seguinte forma, dando o comando npm init, ou seja, vamos iniciar, init, um novo projeto através do npm.
 
-// Após dar o comando (npm init) no terminal foi criado o arquivo package.json.
+//Após dar o comando (npm init) no terminal foi criado o arquivo package.json.
 // Observação o (-y) ao final do comando (npm init) ou seja (npm init -y) que significa que vamos dar yes, vamos dar sim, resposta automática para todas as perguntas que o npm init precisa para criar este arquivo “package.json” inicialmente.
+
+//Anotação: Como o resultado da execução do process.argv é um array, podemos utilizar process.argv[2] e process.argv[3] respectivamente. Por se tratar de um array de string podemos capturar o retorno das posições 2 e 3 normalmente.
+
+//Considerações finais:
+
+//Aprendemos a utilizar a interface de linha de comando e como aplicamos a lib process do JavaScript para capturar e utilizar os dados informados no terminal em nosso código;
+
+//A organizar o código separando em arquivos as funções que lidam com entrada e saída de dados das funções que processam os links;
+
+//Como fazer estes diversos arquivos conversarem entre si através da exportação e importação de módulos com module.exports e require();
+
+//Que scripts são instruções que usamos para automatizar tarefas e como escrever nossos próprios scripts, incluí-los no arquivo de configuração package.json e utilizá-los para executar comandos no terminal.
+
+//Foi utilizado a lib node-fetch para acessar URLs e devolver informações como código de status HTTP; O método Promise.all para acessar de forma assíncrona um array de URLs e receber o resultado; E combinamos o uso do node-fetch e de promessas com async/await para garantir que o código seja executado de forma assíncrona, retornando os resultados.
